@@ -292,7 +292,7 @@ export function App() {
     <div className="app-shell">
       <aside className="sidebar">
         <div className="brand">
-          <img className="brand-logo" src="/logo.svg" alt="Sharada School logo" />
+          <img className="brand-logo" src={`${import.meta.env.BASE_URL}logo.svg`} alt="Sharada School logo" />
           <span>Sharada <b>School</b></span>
         </div>
         <div className="school-year">ADMINISTRATION <span>{currentAcademicYear}</span></div>

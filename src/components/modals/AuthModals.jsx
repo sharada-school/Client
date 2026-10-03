@@ -199,7 +199,7 @@ export function Login({ onLogin }) {
     <div
       className="login-page"
       style={{
-        backgroundImage: 'url(/banner.jpeg)',
+        backgroundImage: `url(${import.meta.env.BASE_URL}banner.jpeg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
