@@ -1,8 +1,10 @@
 {
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/web/assets/:path*", "destination": "/assets/:path*" },
+    { "source": "/web/logo.svg", "destination": "/logo.svg" },
+    { "source": "/web/banner.jpeg", "destination": "/banner.jpeg" },
+    { "source": "/web", "destination": "/index.html" },
+    { "source": "/web/(.*)", "destination": "/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
