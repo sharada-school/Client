@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 390" role="img" aria-labelledby="title desc">
+  <title id="title">Sharada School logo</title>
+  <desc id="desc">Blue and green circular education mark with the school motto.</desc>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#08d4d5"/><stop offset=".52" stop-color="#087de0"/><stop offset="1" stop-color="#102ca4"/></linearGradient>
+    <linearGradient id="green" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#72d52f"/><stop offset="1" stop-color="#16bc71"/></linearGradient>
+  </defs>
+  <g fill="none" stroke-linecap="round" stroke-width="23">
+    <path stroke="url(#green)" d="M145 285C49 240 72 133 145 93"/>
+    <path stroke="#116d82" d="M185 298C73 239 111 104 189 70"/>
+    <path stroke="url(#blue)" d="M225 305C104 235 151 75 235 45"/>
+    <path stroke="url(#blue)" d="M266 310C145 221 193 51 287 29"/>
+    <path stroke="#1237ac" d="M310 313C204 210 248 45 355 28"/>
+    <path stroke="url(#green)" d="M310 276C386 229 393 142 337 91"/>
+    <path stroke="#128e9a" d="M342 294C451 234 430 112 368 70"/>
+    <path stroke="#10c7cf" d="M382 300C508 229 477 92 402 61"/>
+    <path stroke="url(#blue)" d="M422 293C548 220 515 91 457 71"/>
+    <path stroke="#0c4bbd" d="M463 279C576 209 544 118 501 94"/>
+  </g>
+  <text x="320" y="363" text-anchor="middle" fill="#173ca5" font-family="Georgia,serif" font-size="24" font-style="italic" font-weight="700">Education - the key to wisdom</text>
+</svg>
